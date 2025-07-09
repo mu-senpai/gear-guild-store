@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Men's Cotton T-Shirt",
+        "description": "Comfortable cotton t-shirt perfect for casual wear",
+        "price": 29.99,
+        "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop",
+        "category": "Men",
+        "inStock": true
+    },
+    {
+        "title": "Women's Summer Dress",
+        "description": "Light and elegant summer dress for any occasion",
+        "price": 59.99,
+        "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=400&fit=crop",
+        "category": "Women",
+        "inStock": true
+    },
+    {
+        "title": "Men's Denim Jeans",
+        "description": "Classic blue denim jeans with comfortable fit",
+        "price": 79.99,
+        "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop",
+        "category": "Men",
+        "inStock": true
+    },
+    {
+        "title": "Women's Casual Blouse",
+        "description": "Stylish blouse perfect for work or casual outings",
+        "price": 45.99,
+        "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&h=400&fit=crop",
+        "category": "Women",
+        "inStock": true
+    },
+    {
+        "title": "Kids' Hoodie",
+        "description": "Cozy hoodie for kids, perfect for school or play",
+        "price": 34.99,
+        "image": "https://images.unsplash.com/photo-1503919005314-30d93d07d823?w=400&h=400&fit=crop",
+        "category": "Kids",
+        "inStock": true
+    },
+    {
+        "title": "Women's Cardigan",
+        "description": "Warm and stylish cardigan for cooler weather",
+        "price": 54.99,
+        "image": "https://images.unsplash.com/photo-1544966503-7be2e79c2265?w=400&h=400&fit=crop",
+        "category": "Women",
+        "inStock": true
+    }
+]

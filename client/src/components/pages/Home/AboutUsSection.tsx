@@ -195,7 +195,7 @@ export function AboutUsSection() {
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link href={`/products`} className='block'>
                                 <motion.button
-                                    className="px-4 lg:px-6 2xl:px-8 py-2 lg:py-3 2xl:py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl"
+                                    className="px-4 lg:px-6 2xl:px-8 py-2 lg:py-3 2xl:py-4 w-full sm:w-auto bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl"
                                     whileHover={{ scale: 1.02 }}
                                     whileTap={{ scale: 0.98 }}
                                 >
@@ -204,7 +204,7 @@ export function AboutUsSection() {
                             </Link>
                             <Link href={`/contact`} className='block'>
                                 <motion.button
-                                    className="px-4 lg:px-6 2xl:px-8 py-2 lg:py-3 2xl:py-4 border-2 border-blue-600 text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-all duration-300"
+                                    className="px-4 lg:px-6 2xl:px-8 py-2 lg:py-3 2xl:py-4 w-full sm:w-auto border-2 border-blue-600 text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-all duration-300"
                                     whileHover={{ scale: 1.02 }}
                                     whileTap={{ scale: 0.98 }}
                                 >

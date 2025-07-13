@@ -52,13 +52,13 @@ export function MobileNavDrawer() {
                         transition={{ type: "spring", damping: 25, stiffness: 200 }}
                     >
                         {/* Header */}
-                        <div className="flex items-center justify-between p-6 border-b border-slate-200">
+                        <div className="flex items-center justify-between p-4 border-b border-slate-200">
                             <Image
                                 src="/logo/qtech-store-logo.png"
                                 alt="Qtech Store"
                                 width={120}
                                 height={40}
-                                className="h-8 w-auto"
+                                className="h-12 w-auto"
                             />
                             <motion.button
                                 onClick={() => dispatch(closeMobileMenu())}

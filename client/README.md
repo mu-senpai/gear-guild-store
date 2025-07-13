@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Qtech Store – Front-End Documentation  
 
-## Getting Started
+Modern **Next.js 13** application delivering a fast, accessible and responsive tech-commerce experience.
 
-First, run the development server:
+## 1 · Overview
+The front-end is a **TypeScript-first** SPA powered by **Next.js (App Router)**.  
+It consumes the REST API (see backend docs) via **RTK Query**, provides animated UI with **Framer Motion**, and embraces **Tailwind CSS** for utility-based styling alongside **Ant Design** components.
 
+## 2 · Tech Stack
+| Layer | Libraries / Tools |
+|-------|-------------------|
+| Framework | Next.js 13, React 18, TypeScript 5 |
+| State & Data | Redux Toolkit, RTK Query |
+| Styling | Tailwind CSS v3, Ant Design v5, CSS Modules |
+| Animations | Framer Motion v11 |
+| Notifications | Sonner |
+| Lint / Format | ESLint |
+
+## 3 · Key Features
+- **Responsive Layouts** – adaptive grid (1–4 cards) with container queries.
+- **Dynamic Routing** – App Router (`app/` directory) with SSG/SSR per page:
+  - `/` – hero, featured products
+  - `/products` – search, filters, pagination
+  - `/products/[id]` – details, cart integration
+  - `/contact`
+- **Centralised State** – cart slice, UI slice and shared API cache.
+- **Cart Sidebar** – slide-in panel, quantity controls, clear cart, checkout modal.
+- **Checkout Flow** – modal with form validation, bKash & Nagad wallet support, success modal.
+- **Skeletons & Lazy Loading** – graceful data loading indicators.
+
+## 4 · Setup & Running
+
+### 4.1 Prerequisites
+- Node 18+
+- npm 9 / Yarn 1.22
+- Access to Qtech Store backend API (`.env.local`)
+
+### 4.2 Installation
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/mu-senpai/qtec-task.git
+cd qtech-store/client
+npm install     
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4.3 Environment Variables (`.env.local`)
+```
+NEXT_PUBLIC_API_BASE_URL=https://qtech-task-server.vercel.app/api/
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4.4 Scripts
+| Command | Action |
+|---------|--------|
+| `npm run dev` | Local dev server on `http://localhost:3000` |
+| `npm run build` | Production build with next build |
+| `npm run start` | Launch prod server (`.next/standalone`) |
+| `npm run lint` | ESLint |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 5 · Development Guidelines
+### 5.1 Code Style
+- **Functional components** with `FC` or typed props.
+- **Hooks** in `hooks/` when stateful logic reused across components.
+- Keep components **presentational vs container**: UI under `components/`, data fetching under `pages/` or hooks.
 
-## Learn More
+### 5.2 State Management
+- Global data via **RTK Query**, cached and auto-revalidated.
+- UI state (sidebar, modals) in `uiSlice`.
+- Cart state in `cartSlice`; persists per session via anonymous `sessionId`.
 
-To learn more about Next.js, take a look at the following resources:
+### 5.3 Styling
+- Tailwind for utilities; Ant Design for complex components (Table, Modal).
+- Custom utilities declared in `@layer utilities` inside `globals.css`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 5.4 Imports
+- Absolute paths via `tsconfig.json` alias `@/` → `src/`:
+  ```ts
+  import { HeroContent } from '@/components/layout/HeroContent'
+  ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 5.5 Commit Conventions
+- Conventional Commits (`feat:`, `fix:`, `refactor:`…)
+- PR titles follow same schema, linked to issues.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 6 · Deployment
+1. Build assets  
+   ```bash
+   npm run build
+   ```
+2. Output is in `.next/` (or `.next/standalone` for Docker).
+3. Deploy to **Vercel**, **Render** or any Node host with:
+   ```bash
+   npm run start
+   ```
+4. Set environment variables in host dashboard.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 7 · Roadmap
+- Integrate `next-auth` for Google / GitHub sign-in.
+- Stripe or SSLCOMMERZ live payment gateway.
+- Multi-currency & i18n (react-intl).
+- Product reviews & ratings backend.
+- CMS integration (Sanity) for marketing pages.
+
+
+> Crafted in Dhaka, Bangladesh 🇧🇩 – Happy coding!

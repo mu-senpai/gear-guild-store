@@ -118,7 +118,7 @@ export function SuccessModal() {
                         size="large"
                         icon={<ShoppingOutlined />}
                         onClick={handleContinueShopping}
-                        className="flex-1 h-12 font-semibold"
+                        className="sm:flex-1 h-12 font-semibold"
                     >
                         Continue Shopping
                     </Button>
@@ -127,7 +127,7 @@ export function SuccessModal() {
                         size="large"
                         icon={<HomeOutlined />}
                         onClick={handleGoHome}
-                        className="flex-1 h-12 bg-gradient-to-r from-blue-600 to-blue-700 border-0 font-semibold"
+                        className="sm:flex-1 h-12 bg-gradient-to-r from-blue-600 to-blue-700 border-0 font-semibold"
                     >
                         Go to Home
                     </Button>

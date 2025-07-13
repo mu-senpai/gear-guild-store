@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/* Remove the @config block temporarily and use basic CSS */
+
+/* Line clamp utility for text truncation */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Define animation as a utility class */
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Custom Pagination Styles */
+.custom-pagination .ant-pagination-item {
+  border-radius: 8px !important;
+  border-color: #e2e8f0 !important;
+}
+
+.custom-pagination .ant-pagination-item-active {
+  background: linear-gradient(135deg, #3b82f6, #2563eb) !important;
+  border-color: #3b82f6 !important;
+}
+
+.custom-pagination .ant-pagination-item-active a {
+  color: white !important;
+}
+
+.custom-pagination .ant-pagination-item:hover {
+  border-color: #3b82f6 !important;
+}
+
+.custom-pagination .ant-pagination-item:hover a {
+  color: #3b82f6 !important;
+}
+
+.custom-pagination .ant-pagination-prev,
+.custom-pagination .ant-pagination-next {
+  border-radius: 8px !important;
+}
+
+.custom-pagination .ant-pagination-prev:hover,
+.custom-pagination .ant-pagination-next:hover {
+  border-color: #3b82f6 !important;
+  color: #3b82f6 !important;
+}
+
+.custom-pagination .ant-pagination-jump-prev,
+.custom-pagination .ant-pagination-jump-next {
+  border-radius: 8px !important;
+}

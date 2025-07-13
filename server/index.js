@@ -8,7 +8,6 @@ const productRoutes = require('./routes/productRoutes');
 const cartRoutes = require('./routes/cartRoutes');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
 
 // Connect to Database
 connectDB();
@@ -24,7 +23,7 @@ app.use('/api/cart', cartRoutes);
 // Default route
 app.get('/', (req, res) => {
     res.json({ 
-        message: 'Clothing Store API is running!',
+        message: 'Tech Store API is running on Vercel!',
         endpoints: {
             products: '/api/products',
             cart: '/api/cart'
@@ -33,7 +32,5 @@ app.get('/', (req, res) => {
     });
 });
 
-// Start server
-app.listen(PORT, () => {
-    console.log(`Clothing Store server is running on port ${PORT}`);
-});
+// Export for Vercel (IMPORTANT: No app.listen() here)
+module.exports = app;

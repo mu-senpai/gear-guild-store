@@ -5,10 +5,7 @@ const productsData = require('./data/products.json');
 
 const connectDB = async () => {
     try {
-        await mongoose.connect(process.env.MONGODB_URI, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-        });
+        await mongoose.connect(process.env.MONGODB_URI);
         console.log('MongoDB Connected for seeding...');
     } catch (error) {
         console.error('Database connection error:', error.message);
@@ -22,13 +19,16 @@ const seedProducts = async () => {
         await Product.deleteMany({});
         console.log('Existing products cleared...');
         
-        // Insert new products
+        // Insert new tech products
         const products = await Product.insertMany(productsData);
-        console.log(`${products.length} products inserted successfully!`);
+        console.log(`${products.length} tech products inserted successfully!`);
         
-        // Display inserted products
+        // Display inserted products with discount info
         products.forEach(product => {
-            console.log(`- ${product.title} (${product.category}) - $${product.price}`);
+            const discountInfo = product.discountedPrice 
+                ? ` (Discounted: $${product.discountedPrice})` 
+                : '';
+            console.log(`- ${product.title} (${product.category}) - $${product.price}${discountInfo}`);
         });
         
     } catch (error) {
@@ -40,7 +40,7 @@ const runSeeder = async () => {
     await connectDB();
     await seedProducts();
     mongoose.disconnect();
-    console.log('Database seeding completed!');
+    console.log('Tech store seeding completed!');
 };
 
 runSeeder();

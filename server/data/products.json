@@ -1,50 +1,164 @@
 [
     {
-        "title": "Men's Cotton T-Shirt",
-        "description": "Comfortable cotton t-shirt perfect for casual wear",
-        "price": 29.99,
-        "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop",
-        "category": "Men",
+        "title": "Apple iPhone 15 Pro",
+        "description": "Specifications: 6.1-inch Super Retina XDR display, A17 Pro chip, 48MP camera system | Features: 5G connectivity, Face ID, Ceramic Shield, Titanium design",
+        "price": 999.99,
+        "discountedPrice": 949.99,
+        "image": "https://i.ibb.co/4R3dfsQN/image.png",
+        "category": "Mobiles",
         "inStock": true
     },
     {
-        "title": "Women's Summer Dress",
-        "description": "Light and elegant summer dress for any occasion",
-        "price": 59.99,
-        "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=400&fit=crop",
-        "category": "Women",
+        "title": "Samsung Galaxy S23 Ultra",
+        "description": "Specifications: 6.8-inch Dynamic AMOLED display, Snapdragon 8 Gen 2, 200MP camera, 5000mAh battery | Features: S Pen included, 100x Space Zoom, 8K video recording, Fast charging",
+        "price": 1199.99,
+        "discountedPrice": null,
+        "image": "https://i.ibb.co/nN1jsvB8/image.png",
+        "category": "Mobiles",
         "inStock": true
     },
     {
-        "title": "Men's Denim Jeans",
-        "description": "Classic blue denim jeans with comfortable fit",
+        "title": "Google Pixel 8 Pro",
+        "description": "Specifications: 6.7-inch LTPO OLED display, Google Tensor G3 chip, 50MP camera system | Features: AI photography, Magic Eraser, Live Translate, 7 years of updates",
+        "price": 899.99,
+        "discountedPrice": null,
+        "image": "https://i.ibb.co/5WTsTtHC/image.png",
+        "category": "Mobiles",
+        "inStock": true
+    },
+    {
+        "title": "OnePlus 11",
+        "description": "Specifications: 6.7-inch AMOLED display, Snapdragon 8 Gen 2, 50MP camera, 5000mAh battery | Features: 100W fast charging, Hasselblad camera optimization, Alert Slider, OxygenOS",
+        "price": 699.99,
+        "discountedPrice": 649.99,
+        "image": "https://i.ibb.co/hx2tvT3h/image.png",
+        "category": "Mobiles",
+        "inStock": true
+    },
+    {
+        "title": "MacBook Pro 14-inch M4 Pro",
+        "description": "Specifications: 14.2-inch Liquid Retina XDR display, Apple M4 Pro chip, 16GB RAM, 512GB SSD | Features: 18-hour battery life, 1080p FaceTime camera, Six-speaker sound system, Thunderbolt 4",
+        "price": 1999.99,
+        "discountedPrice": 1899.99,
+        "image": "https://i.ibb.co/hxzPmz4s/image.png",
+        "category": "Laptops",
+        "inStock": true
+    },
+    {
+        "title": "Dell XPS 15",
+        "description": "Specifications: 15.6-inch OLED 4K display, Intel Core i9-13900H, 32GB DDR5 RAM, 1TB SSD | Features: NVIDIA RTX 4070 graphics, Thunderbolt 4 ports, Premium aluminum build, Windows 11 Pro",
+        "price": 2499.99,
+        "discountedPrice": 2299.99,
+        "image": "https://i.ibb.co/HLHzdr03/image.png",
+        "category": "Laptops",
+        "inStock": true
+    },
+    {
+        "title": "HP Spectre x360 14",
+        "description": "Specifications: 13.5-inch OLED touch display, Intel Core i7-1365U, 16GB RAM, 512GB SSD | Features: 360-degree convertible design, Pen support, 17-hour battery life, Windows 11 Home",
+        "price": 1599.99,
+        "discountedPrice": null,
+        "image": "https://i.ibb.co/QvZwygFC/image.png",
+        "category": "Laptops",
+        "inStock": true
+    },
+    {
+        "title": "Apple MacBook Air M4",
+        "description": "Specifications: 13.6-inch Liquid Retina display, Apple M4 chip, 8GB RAM, 256GB SSD | Features: 18-hour battery life, Fanless design, 1080p FaceTime camera, Four-speaker sound system",
+        "price": 1199.99,
+        "discountedPrice": null,
+        "image": "https://i.ibb.co/C5MTDzxY/image.png",
+        "category": "Laptops",
+        "inStock": true
+    },
+    {
+        "title": "ASUS ROG Strix G15 Gaming Laptop",
+        "description": "Specifications: 15.6-inch FHD 300Hz display, AMD Ryzen 9 7945HX, 32GB DDR5 RAM, 1TB SSD | Features: NVIDIA RTX 4070 graphics, RGB backlit keyboard, Advanced cooling system, Windows 11",
+        "price": 2199.99,
+        "discountedPrice": 2099.99,
+        "image": "https://i.ibb.co/TMDpbKhq/image.png",
+        "category": "Laptops",
+        "inStock": true
+    },
+    {
+        "title": "Apple AirPods Pro (2nd Gen)",
+        "description": "Specifications: H2 chip, Active Noise Cancellation, Up to 6 hours listening time, MagSafe charging case | Features: Spatial Audio, Transparency mode, IPX4 water resistance, Touch controls",
+        "price": 249.99,
+        "discountedPrice": 229.99,
+        "image": "https://i.ibb.co/5XDx9fsn/image.png",
+        "category": "Accessories",
+        "inStock": true
+    },
+    {
+        "title": "Samsung Galaxy Buds 2 Pro",
+        "description": "Specifications: Dual drivers, Intelligent ANC, Up to 8 hours playback, Wireless charging case | Features: 360 Audio, IPX7 water resistance, Galaxy ecosystem integration, SmartThings Find",
+        "price": 229.99,
+        "discountedPrice": null,
+        "image": "https://i.ibb.co/spCRT0sd/image.png",
+        "category": "Accessories",
+        "inStock": true
+    },
+    {
+        "title": "Sony WH-1000XM5 Wireless Headphones",
+        "description": "Specifications: V1 processor, 30-hour battery life, LDAC codec, Multipoint connection | Features: Industry-leading noise cancellation, Quick charge, Speak-to-chat technology, Touch controls",
+        "price": 399.99,
+        "discountedPrice": 379.99,
+        "image": "https://i.ibb.co/Xr2frZww/image.png",
+        "category": "Accessories",
+        "inStock": true
+    },
+    {
+        "title": "Logitech MX Master 3S Mouse",
+        "description": "Specifications: 8000 DPI sensor, USB-C fast charging, Multi-device connectivity, Ergonomic design | Features: MagSpeed scrolling, Customizable buttons, Glass surface compatible, 3-device switching",
+        "price": 99.99,
+        "discountedPrice": 89.99,
+        "image": "https://i.ibb.co/CGXNb5v/image.png",
+        "category": "Accessories",
+        "inStock": true
+    },
+    {
+        "title": "Razer BlackWidow V4 Mechanical Keyboard",
+        "description": "Specifications: Razer Green switches, RGB backlighting, Full-size layout, Aluminum top plate | Features: Dedicated media controls, Magnetic wrist rest, USB passthrough, Programmable keys",
+        "price": 169.99,
+        "discountedPrice": null,
+        "image": "https://i.ibb.co/wZ9cxkZK/image.png",
+        "category": "Accessories",
+        "inStock": true
+    },
+    {
+        "title": "Dell UltraSharp 27 4K Monitor",
+        "description": "Specifications: 27-inch 4K IPS display, 99% sRGB coverage, USB-C connectivity, Height-adjustable stand | Features: Factory pre-calibrated, 90W power delivery, ComfortView Plus, VESA mount compatible",
+        "price": 599.99,
+        "discountedPrice": 549.99,
+        "image": "https://i.ibb.co/XZGpVqM7/image.png",
+        "category": "Accessories",
+        "inStock": true
+    },
+    {
+        "title": "Anker PowerCore 26800mAh Portable Charger",
+        "description": "Specifications: 26800mAh capacity, PowerIQ 2.0 technology, Dual USB-A and USB-C ports, Compact design | Features: Fast charging support, MultiProtect safety system, Universal compatibility, Surge protection",
         "price": 79.99,
-        "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop",
-        "category": "Men",
+        "discountedPrice": null,
+        "image": "https://i.ibb.co/q37dXfJm/image.png",
+        "category": "Accessories",
         "inStock": true
     },
     {
-        "title": "Women's Casual Blouse",
-        "description": "Stylish blouse perfect for work or casual outings",
-        "price": 45.99,
-        "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&h=400&fit=crop",
-        "category": "Women",
+        "title": "Samsung T7 Portable SSD 1TB",
+        "description": "Specifications: 1TB storage capacity, USB 3.2 Gen 2 interface, 1050MB/s read speed, Aluminum unibody | Features: Password protection, AES 256-bit encryption, Shock-resistant design, Multi-device compatibility",
+        "price": 149.99,
+        "discountedPrice": null,
+        "image": "https://i.ibb.co/5hmqRwPt/image.png",
+        "category": "Accessories",
         "inStock": true
     },
     {
-        "title": "Kids' Hoodie",
-        "description": "Cozy hoodie for kids, perfect for school or play",
-        "price": 34.99,
-        "image": "https://images.unsplash.com/photo-1503919005314-30d93d07d823?w=400&h=400&fit=crop",
-        "category": "Kids",
-        "inStock": true
-    },
-    {
-        "title": "Women's Cardigan",
-        "description": "Warm and stylish cardigan for cooler weather",
-        "price": 54.99,
-        "image": "https://images.unsplash.com/photo-1544966503-7be2e79c2265?w=400&h=400&fit=crop",
-        "category": "Women",
+        "title": "Google Nest Hub (2nd Gen)",
+        "description": "Specifications: 7-inch touchscreen display, Google Assistant built-in, Soli sensor, Stereo speakers | Features: Sleep tracking, Voice match for 6 users, Smart home control, Ambient light sensor",
+        "price": 99.99,
+        "discountedPrice": 89.99,
+        "image": "https://i.ibb.co/Z6NbTBv5/image.png",
+        "category": "Accessories",
         "inStock": true
     }
 ]

@@ -1,4 +1,4 @@
-# Qtech Store Backend  
+# Qtech Store - Backend Documentation 
 REST API for the premium-tech e-commerce platform
 
 ---

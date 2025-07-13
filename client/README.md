@@ -9,7 +9,7 @@ It consumes the REST API (see backend docs) via **RTK Query**, provides animated
 ## 2 · Tech Stack
 | Layer | Libraries / Tools |
 |-------|-------------------|
-| Framework | Next.js 13, React 18, TypeScript 5 |
+| Framework | Next.js 15, React 18, TypeScript 5 |
 | State & Data | Redux Toolkit, RTK Query |
 | Styling | Tailwind CSS v3, Ant Design v5, CSS Modules |
 | Animations | Framer Motion v11 |
@@ -38,7 +38,7 @@ It consumes the REST API (see backend docs) via **RTK Query**, provides animated
 ### 4.2 Installation
 ```bash
 git clone https://github.com/mu-senpai/qtec-task.git
-cd qtech-store/client
+cd qtec-task/client
 npm install     
 ```
 

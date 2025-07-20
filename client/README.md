@@ -1,6 +1,6 @@
-# Qtech Store – Front-End Documentation  
+# GaerGuild Store – Front-End Documentation  
 
-Modern **Next.js 13** application delivering a fast, accessible and responsive tech-commerce experience.
+Modern **Next.js 15** application delivering a fast, accessible and responsive tech-commerce experience.
 
 ## 1 · Overview
 The front-end is a **TypeScript-first** SPA powered by **Next.js (App Router)**.  

@@ -1,6 +1,6 @@
-# Qtech Store 🛒
+# GearGuild Store 🛒
 
-A modern, full-stack tech-commerce application built with **Next.js 13 (client)** and **Node.js + Express (server)**.  
+A modern, full-stack tech-commerce application built with **Next.js 15 (client)** and **Node.js + Express (server)**.  
 This monorepo contains both front-end and back-end codebases for seamless e-commerce experience.
 
 ---
@@ -51,9 +51,8 @@ npm run dev
 
 ## 🛠️ Tech Highlights
 
-- **Next.js 13 App Router**
+- **Next.js 15 App Router**
 - **Tailwind CSS + Ant Design**
 - **Redux Toolkit + RTK Query**
 - **Node.js + Express + MongoDB**
-- **JWT Authentication**
 - **Framer Motion Animations**

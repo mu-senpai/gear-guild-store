@@ -52,7 +52,7 @@ export function MobileNavDrawer() {
                         transition={{ type: "spring", damping: 25, stiffness: 200 }}
                     >
                         {/* Header */}
-                        <div className="flex items-center justify-between p-6 border-b border-slate-200">
+                        <div className="flex items-center justify-between p-4 border-b border-slate-200">
                             <Image
                                 src="/logo/gear-guild-logo.png"
                                 alt="GearGuild"

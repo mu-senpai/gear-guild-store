@@ -42,7 +42,7 @@ export function ProductsGrid({ products, pagination, loading, error }: ProductsG
 
     if (error) {
         return (
-            <div className="bg-white rounded-2xl shadow-lg p-8">
+            <div className="p-12">
                 <Alert
                     message="Error Loading Products"
                     description="Unable to load products. Please try again later."
@@ -63,7 +63,7 @@ export function ProductsGrid({ products, pagination, loading, error }: ProductsG
 
     if (loading) {
         return (
-            <div className="bg-white rounded-2xl shadow-lg p-6">
+            <div>
                 <Row gutter={[24, 24]}>
                     {Array.from({ length: 12 }).map((_, index) => (
                         <Col key={index} xs={24} sm={12} md={12} lg={12} xl={8}>
@@ -77,7 +77,7 @@ export function ProductsGrid({ products, pagination, loading, error }: ProductsG
 
     if (products.length === 0) {
         return (
-            <div className="bg-white rounded-2xl shadow-lg p-12">
+            <div className="p-12">
                 <Empty
                     image={Empty.PRESENTED_IMAGE_SIMPLE}
                     description={

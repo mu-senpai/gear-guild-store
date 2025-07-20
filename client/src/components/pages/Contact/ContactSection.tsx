@@ -40,7 +40,7 @@ export function ContactSection() {
         {
             icon: MailOutlined,
             title: 'Email Us',
-            content: 'support@qtechstore.com',
+            content: 'support@gearguild.com',
             description: 'Send us an email anytime',
             color: 'text-blue-600'
         },

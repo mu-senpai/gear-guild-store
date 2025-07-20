@@ -67,7 +67,7 @@ export function SuccessModal() {
                         Order Placed Successfully!
                     </h2>
                     <p className="text-slate-600 mb-6">
-                        Thank you for shopping with Qtech Store. Your order has been confirmed
+                        Thank you for shopping with GearGuild. Your order has been confirmed
                         and will be processed shortly.
                     </p>
                 </motion.div>

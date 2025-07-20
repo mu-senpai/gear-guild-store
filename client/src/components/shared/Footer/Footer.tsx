@@ -20,10 +20,10 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
           <Link href="/" className="flex items-center mb-3">
             <Image
-              src="/logo/qtech-store-logo.png"
-              alt="Qtech Store Logo"
-              width={160}
-              height={60}
+              src="/logo/gear-guild-logo.png"
+              alt="GearGuild Logo"
+              width={120}
+              height={120}
               className="object-contain"
             />
           </Link>
@@ -72,7 +72,7 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-end gap-1 mb-3">
             <div className="flex items-center gap-2 text-xs text-slate-600">
               <MailOutlined className="text-blue-600" />
-              <span>support@qtechstore.com</span>
+              <span>support@gearguild.com</span>
             </div>
             <div className="flex items-center gap-2 text-xs text-slate-600">
               <PhoneOutlined className="text-blue-600" />
@@ -141,7 +141,7 @@ export default function Footer() {
       {/* Copyright */}
       <Divider className="border-slate-300 !mb-3" />
       <div className="text-center text-slate-500 text-xs">
-        © {new Date().getFullYear()} Qtech Store. All rights reserved.
+        © {new Date().getFullYear()} GearGuild. All rights reserved.
       </div>
     </footer>
   )

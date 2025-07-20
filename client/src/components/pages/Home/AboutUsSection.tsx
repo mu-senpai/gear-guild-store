@@ -60,7 +60,7 @@ export function AboutUsSection() {
                         <div className="relative h-96 sm:h-[25rem] lg:h-[30rem] xl:h-[35rem] rounded-3xl overflow-hidden">
                             <Image
                                 src="/images/About_Us.png"
-                                alt="Tech enthusiast with premium gadgets - Qtech Store"
+                                alt="Tech enthusiast with premium gadgets - GearGuild"
                                 fill
                                 className="object-contain"
                                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -115,7 +115,7 @@ export function AboutUsSection() {
                             >
                                 About{' '}
                                 <span className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-                                    Qtech Store
+                                    GearGuild
                                 </span>
                             </motion.h2>
 
@@ -189,7 +189,7 @@ export function AboutUsSection() {
                             Ready to Experience Premium Tech?
                         </h3>
                         <p className="text-sm md:text-base xl:text-lg text-slate-600 mb-6 max-w-2xl mx-auto">
-                            Join thousands of satisfied customers who trust Qtech Store for their technology needs.
+                            Join thousands of satisfied customers who trust GearGuild for their technology needs.
                             Discover our curated selection of premium devices today.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">

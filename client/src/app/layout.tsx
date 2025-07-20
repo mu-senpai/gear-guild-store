@@ -11,7 +11,7 @@ import { CheckoutContainer } from "@/components/pages/Checkout/CheckoutContainer
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Qtech Store - Premium Tech",
+  title: "GearGuild - Premium Tech",
   description: "Discover the latest mobiles, laptops, and accessories at Tech Store",
 };
 

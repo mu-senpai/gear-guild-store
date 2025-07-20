@@ -42,8 +42,8 @@ export default function HeroSection() {
         }}
       >
         <Image
-          src="/logo/qtec-logo-overlay.png"
-          alt="Qtech Store Logo"
+          src="/logo/logo-overlay.png"
+          alt="GearGuild Logo"
           fill
           className="object-cover"
           priority={false}

@@ -43,7 +43,7 @@ export function HeroContent() {
           Discover Premium Tech
         </span>
         <br />
-        <span className="text-slate-800">at Qtech Store</span>
+        <span className="text-slate-800">at GearGuild</span>
       </motion.h1>
 
       {/* Supporting Text */}

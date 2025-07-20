@@ -11,6 +11,6 @@ export default function AllProductsPage() {
 }
 
 export const metadata = {
-    title: 'All Products - Qtech Store',
-    description: 'Browse our complete collection of premium electronics, mobiles, laptops, and accessories at Qtech Store.',
+    title: 'All Products - GearGuild',
+    description: 'Browse our complete collection of premium electronics, mobiles, laptops, and accessories at GearGuild.',
 }

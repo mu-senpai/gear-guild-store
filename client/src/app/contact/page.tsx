@@ -11,6 +11,6 @@ export default function ContactPage() {
 }
 
 export const metadata = {
-  title: 'Contact Us - Qtech Store',
-  description: 'Get in touch with Qtech Store for any questions, support, or inquiries about our premium electronics.',
+  title: 'Contact Us - GearGuild',
+  description: 'Get in touch with GearGuild for any questions, support, or inquiries about our premium electronics.',
 }

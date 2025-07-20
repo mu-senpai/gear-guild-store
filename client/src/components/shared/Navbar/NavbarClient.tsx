@@ -80,11 +80,11 @@ export function NavbarClient() {
                                 transition={{ duration: 0.2 }}
                             >
                                 <Image
-                                    src="/logo/qtech-store-logo.png" 
-                                    alt="Qtech Store"
-                                    width={120}
-                                    height={40}
-                                    className="h-10 xl:h-16 w-auto"
+                                    src="/logo/gear-guild-logo.png" 
+                                    alt="GearGuild"
+                                    width={48}
+                                    height={48}
+                                    className="h-12 xl:h-16 w-auto"
                                 />
                             </motion.div>
                         </Link>
